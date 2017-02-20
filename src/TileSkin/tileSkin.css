@@ -1,0 +1,9 @@
+.image-search-control .tile-skin-content {
+    -fx-background-color: #777;
+}
+.image-search-control .tile-skin-image-view, .image-search-toggle {
+    -fx-cursor: hand;
+}
+.image-search-control .tile-skin-image-view.is-loading {
+    -fx-cursor: wait;
+}
